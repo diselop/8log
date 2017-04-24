@@ -1,0 +1,6 @@
+{
+    "options": {
+        "dirname": "./files/",
+        "bulb": "bulb"
+    }
+}

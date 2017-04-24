@@ -1,0 +1,47 @@
+{
+  "name": "storage",
+  "description": "Test job",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diselop/8log"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development DEBUG=init node app.js",
+    "start": "NODE_ENV=production node app.js",
+    "lint": "eslint ."
+  },
+  "author": "Anton Krutilin <tony@krutins.ru>",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bunyan": "^1.8.10",
+    "busboy": "^0.2.14",
+    "dateformat": "^2.0.0",
+    "express": "^4.15.2",
+    "pg-promise": "^5.6.4",
+    "request": "^2.81.0",
+    "sha1": "^1.1.1",
+    "sha1-file": "^1.0.0",
+    "uuid": "^3.0.1",
+    "wget": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-config-prettier": "^1.5.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "es6": true,
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ],
+    "env": {
+      "node": true
+    }
+  }
+}
